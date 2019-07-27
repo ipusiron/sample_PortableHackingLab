@@ -1,0 +1,7 @@
+set nocompatible				# Vimモード（非vi互換モード）にする.
+set number						# 行番号を表示する.
+set backspace=indent,eol,start	# [BS]キーの挙動を修正する.
+set autoindent					# 自動インデント.
+set smartindent					# C言語の構文を読み取り自動インデントする.
+set tabstop=4					# タブ幅をスペース4つ分にする.
+set shiftwidth=4				# 自動インデントの幅を設定する.

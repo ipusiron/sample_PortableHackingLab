@@ -1,0 +1,10 @@
+[Unit]
+Description=Shutdown Daemon
+
+[Service]
+ExecStart=/home/pi/shutdown_by_button.py
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
