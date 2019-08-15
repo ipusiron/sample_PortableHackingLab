@@ -23,7 +23,7 @@ def heartbeat(times):
 
 def setupActLed():
     os.system("echo gpio | sudo tee /sys/class/leds/led0/trigger > /dev/null")
-    os.system("echo " + str(ACT_LED) + " | sudo tee /sys/class/leds/led0/gpio")
+    os.system("echo " + str(ACT_LED) + " | sudo tee /sys/class/leds/led0/gpio > /dev/null")
     print("Triger mode:gpio")
 
 def finishActLed():
